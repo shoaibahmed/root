@@ -88,7 +88,10 @@ struct TCNNWorkspace : public TMVA::DNN::TWorkspace {
    ReduceTensorDescriptor_t fReduceTensorDesc;
 };
 
+
 } // namespace CNN
+
+
 
 namespace CNN_3D {
 
@@ -138,7 +141,8 @@ struct TCNNWorkspace : public TMVA::DNN::TWorkspace {
    ReduceTensorDescriptor_t fReduceTensorDesc;
 };
 
-} // namespace CNN_3D
+
+} // namespace CNN
 
 namespace RNN {
 template <typename Architecture_t>
