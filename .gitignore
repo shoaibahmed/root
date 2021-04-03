@@ -32,6 +32,10 @@ CMakeLists.txt.user
 # Vim
 *.swp
 
+# Build folder
+_build/
+runtests/
+
 # Other Stuff
 tags
 *.d
